@@ -1,0 +1,47 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".presentacion.PrimeraVezNombreRiu"
+    >
+
+    <TextView
+        android:id="@+id/mensaje_bienvenida"
+        android:text="@string/mensaje_bienvenida"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:gravity ="center"
+        android:layout_marginTop="30dp"
+        />
+
+    <TextView
+        android:id="@+id/mensaje_introduccion"
+        android:text="@string/mensaje_introduccion"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:gravity ="center"
+        />
+
+    <TextView
+        android:id="@+id/mensaje_nombre_mascota"
+        android:text="@string/mensaje_nombre_mascota"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:gravity ="center"
+        />
+
+    <EditText
+        android:id="@+id/nombre_mascota"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity ="center"
+        android:hint="@string/hint_nombre_mascota"
+        android:imeOptions="actionDone"
+        android:inputType="text|textCapWords"
+        android:drawableLeft="@drawable/ic_launcher"
+        android:drawablePadding="8dp"
+        />
+
+</LinearLayout>

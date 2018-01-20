@@ -1,0 +1,44 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".presentacion.PrimeraVezGeneroRiu"
+    >
+
+    <TextView
+        android:id="@+id/mensaje_genero_mascota"
+        android:text="@string/mensaje_genero_mascota"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:gravity ="center"
+        android:layout_marginTop="30dp"
+        />
+
+    <Button
+        android:id="@+id/btn_genero_macho"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_gravity ="center"
+        android:background="@drawable/macho"
+        android:layout_marginTop="30dp"
+        />
+
+    <TextView
+        android:text="ó"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:gravity ="center"
+        android:layout_marginTop="30dp"
+        />
+
+    <Button
+        android:id="@+id/btn_genero_hembra"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_gravity ="center"
+        android:background="@drawable/hembra"
+        />
+
+</LinearLayout>

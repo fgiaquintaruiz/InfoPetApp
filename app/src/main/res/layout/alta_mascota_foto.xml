@@ -1,0 +1,37 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".presentacion.PrimeraVezFotoPerfilRiu"
+    >
+
+    <TextView
+        android:id="@+id/mensaje_foto_perfil"
+        android:text="@string/mensaje_foto_perfil"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:gravity ="center"
+        android:layout_marginTop="30dp"
+        />
+
+    <ImageView
+        android:id="@+id/img_foto_perfil"
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:layout_gravity ="center"
+        android:scaleType="centerCrop"
+        android:layout_marginTop="10dp"
+        android:src="@drawable/ic_launcher" />
+
+    <Button
+        android:id="@+id/btn_foto_perfil_continuar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity ="center"
+        android:text="@string/btn_foto_perfil_continuar"
+        android:layout_marginTop="20dp"
+        />
+
+</LinearLayout>
