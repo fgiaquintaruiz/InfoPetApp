@@ -6,6 +6,7 @@
     <string name="mensaje_bienvenida">Bienvenido a InfoPet!</string>
     <string name="mensaje_nombre_mascota">Como se llama?</string>
     <string name="mensaje_genero_mascota" formatted="false">Tu %s %s es ...</string>
+    <string name="mensaje_fecha_nacimiento_mascota" formatted="false">Tu %s %s nacio el ...</string>
     <string name="mensaje_tipo_mascota" formatted="false"> %s es un ...</string>
     <string name="mensaje_introduccion">Agrega a tu mascota en pocos pasos!</string>
     <string name="mensaje_foto_perfil" formatted="false">La foto de perfil de tu %s %s es ...</string>
@@ -20,7 +21,7 @@
     <string name="btn_foto_perfil">Cargar foto...</string>
     <string name="btn_sacar_foto">Camara</string>
     <string name="btn_cargar_foto_galeria">Galeria</string>
-    <string name="btn_foto_perfil_continuar">Continuar</string>
+    <string name="btn_continuar">Continuar</string>
 
     <string name="accion_opciones">Opciones</string>
 

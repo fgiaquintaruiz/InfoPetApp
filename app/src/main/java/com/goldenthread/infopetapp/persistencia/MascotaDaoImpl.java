@@ -82,9 +82,6 @@ public class MascotaDaoImpl extends OrmLiteBaseService<DaoHelper> implements Mas
             }
         }
         releaseDaoHelper();
-        MascotaFiltro mascotaFiltro = new MascotaFiltro();
-        mascotaFiltro.setIdMascota(2);
-        IpMascota mas = obtener(mascotaFiltro);
         return resultado;
     }
 

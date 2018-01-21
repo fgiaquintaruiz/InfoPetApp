@@ -72,8 +72,6 @@ public class AltaMascotaNombreActivity extends BaseActivity
                         MascotaDto mascota = new MascotaDto();
                         mascota.setNombre(nombreMascotaText);
 
-//                        altaMascotaPresenter.actualizar(mascota);
-
                         Intent PrimeraVezTipoRiu = new Intent(this, AltaMascotaTipoActivity.class);
                         PrimeraVezTipoRiu.putExtra(Constantes.DTO, mascota);
                         // start the next Activity using your prepared Intent

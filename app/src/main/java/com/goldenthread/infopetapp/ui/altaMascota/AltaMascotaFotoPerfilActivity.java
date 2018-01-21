@@ -184,7 +184,6 @@ public class AltaMascotaFotoPerfilActivity extends BaseActivity implements AltaM
     }
 
     public void setBitmapImageView(Bitmap bitmap) {
-//        RoundImage roundedImage = new RoundImage(bitmap);
         RoundImageImpl roundedImage = altaMascotaPresenter.getRoundImage(bitmap);
         photoViewer.setImageDrawable(roundedImage);
     }

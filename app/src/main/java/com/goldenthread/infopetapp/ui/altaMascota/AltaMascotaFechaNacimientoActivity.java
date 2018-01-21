@@ -4,6 +4,7 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
+import android.widget.DatePicker;
 import android.widget.TextView;
 import android.widget.Toast;
 
@@ -19,12 +20,12 @@ import java.util.List;
 
 import javax.inject.Inject;
 
-public class AltaMascotaGeneroActivity extends BaseActivity
+public class AltaMascotaFechaNacimientoActivity extends BaseActivity
         implements AltaMascotaView, View.OnClickListener {
 
-    Button btnGeneroMacho = findViewById(R.id.btn_genero_macho);
-    Button btnGeneroHembra = findViewById(R.id.btn_genero_hembra);
-    TextView mensajeMscota = findViewById(R.id.mensaje_genero_mascota);
+    DatePicker fechaNacimiento = findViewById(R.id.fecha_nacimiento);
+    TextView mensajeMscota = findViewById(R.id.mensaje_fecha_nacimiento_mascota);
+    Button btnContinuar = findViewById(R.id.btn_continuar);
     MascotaDto mascota;
 
     @Inject
@@ -36,11 +37,10 @@ public class AltaMascotaGeneroActivity extends BaseActivity
         super.onCreate(savedInstanceState);
         setContentView(R.layout.alta_mascota_genero);
 
-        btnGeneroMacho.setOnClickListener(this);
-        btnGeneroHembra.setOnClickListener(this);
+        btnContinuar.setOnClickListener(this);
 
         mascota = (MascotaDto) this.getIntent().getSerializableExtra(Constantes.DTO);
-        mensajeMscota.setText(String.format(getString(R.string.mensaje_genero_mascota),
+        mensajeMscota.setText(String.format(getString(R.string.mensaje_fecha_nacimiento_mascota),
                 mascota.getTipoMamifero().getDescripcion().toLowerCase(),
                 mascota.getNombre()));
     }
@@ -52,15 +52,8 @@ public class AltaMascotaGeneroActivity extends BaseActivity
     @Override
     public void onClick(View v) {
         try {
-            switch(v.getId()) {
-                case R.id.btn_genero_macho:
-                    mascota.setGenero(EnumGeneral.Genero.MACHO);
-                    break;
-                case R.id.btn_genero_hembra:
-                    mascota.setGenero(EnumGeneral.Genero.HEMBRA);
-                    break;
-                default:
-            }
+//            TODO como se extrae un date picker???
+//            mascota.setFechaNacimiento();
 
             Integer id = altaMascotaPresenter.crear(mascota);
             if(Validacion.isNull(id)){

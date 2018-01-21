@@ -43,6 +43,15 @@
         </activity>
 
         <activity
+            android:name=".ui.altaMascota.AltaMascotaFechaNacimientoActivity"
+            android:parentActivityName=".ui.altaMascota.AltaMascotaFechaNacimientoActivity"
+            >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".ui.altaMascota.AltaMascotaFechaNacimientoActivity"/>
+        </activity>
+
+        <activity
             android:name=".ui.altaMascota.AltaMascotaFotoPerfilActivity"
             android:parentActivityName=".ui.altaMascota.AltaMascotaGeneroActivity"
             >

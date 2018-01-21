@@ -4,26 +4,25 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context=".ui.altaMascota.AltaMascotaFotoPerfilActivity"
+    tools:context=".ui.altaMascota.AltaMascotaFechaNacimientoActivity"
     >
 
     <TextView
-        android:id="@+id/mensaje_foto_perfil"
-        android:text="@string/mensaje_foto_perfil"
+        android:id="@+id/mensaje_fecha_nacimiento_mascota"
+        android:text="@string/mensaje_fecha_nacimiento_mascota"
         android:layout_width="match_parent"
         android:layout_height="50dp"
         android:gravity ="center"
         android:layout_marginTop="30dp"
         />
 
-    <ImageView
-        android:id="@+id/img_foto_perfil"
-        android:layout_width="250dp"
-        android:layout_height="250dp"
+    <DatePicker
+        android:id="@+id/fecha_nacimiento"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:layout_gravity ="center"
-        android:scaleType="centerCrop"
-        android:layout_marginTop="10dp"
-        android:src="@drawable/ic_launcher" />
+        android:layout_marginTop="20dp"
+        ></DatePicker>
 
     <Button
         android:id="@+id/btn_continuar"

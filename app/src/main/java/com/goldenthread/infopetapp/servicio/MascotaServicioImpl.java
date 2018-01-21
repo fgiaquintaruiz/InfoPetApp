@@ -14,7 +14,7 @@ public class MascotaServicioImpl implements MascotaServicio {
     private MascotaDao mascotaDao;
     private MascotaMapeador mascotaMapeador;
 
-    public MascotaServicioImpl(MascotaDao mascotaDao, MascotaMapeador mascotaMapeador) {
+    MascotaServicioImpl(MascotaDao mascotaDao, MascotaMapeador mascotaMapeador) {
         this.mascotaDao = mascotaDao;
         this.mascotaMapeador = mascotaMapeador;
     }
