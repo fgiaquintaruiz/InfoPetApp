@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">InfoPet</string>
+
+    <string name="mensaje_bienvenida">Bienvenido a InfoPet!</string>
+    <string name="mensaje_genero_mascota" formatted="false">Tu %s %s es ...</string>
+    <string name="mensaje_fecha_nacimiento_mascota" formatted="false">Tu %s %s nacio el ...</string>
+    <string name="mensaje_tipo_mascota" formatted="false"> %s es un ...</string>
+    <string name="mensaje_introduccion">Agrega a tu mascota</string>
+    <string name="mensaje_introduccion_otra_mascota">Agrega otra mascota</string>
+    <string name="mensaje_introduccion_editar_mascota">Edita tu mascota</string>
+    <string name="mensaje_foto_perfil" formatted="false">La foto de perfil de tu %s %s es ...</string>
+    <string name="mensaje_dialogo_carga_foto_perfil">Foto Perfil</string>
+    <string name="titulo_lista_mascota">Tus Mascotas</string>
+    <string name="titulo_detalle_mascota">Tu Mascota</string>
+
+    <string name="hint_nombre_mascota">Nombre</string>
+
+    <string name="btn_tipo_perro">Perro</string>
+    <string name="btn_tipo_gato">Gato</string>
+    <string name="btn_genero_macho">Macho</string>
+    <string name="btn_genero_hembra">Hembra</string>
+    <string name="btn_foto_perfil">Cargar foto...</string>
+    <string name="btn_sacar_foto">Camara</string>
+    <string name="btn_cargar_foto_galeria">Galeria</string>
+    <string name="btn_continuar">Continuar</string>
+    <string name="btn_agregar_mascota">Agregar Mascota</string>
+
+    <string name="btn_editar">Editar</string>
+    <string name="btn_elimimar">Eliminar</string>
+
+    <string name="accion_opciones">Opciones</string>
+
+    <string name="titulo_confirmacion_eliminar_mascota">Borrar Mascota</string>
+    <string name="mensaje_confirmacion_eliminar_mascota" formatted="false">Estas seguro que queres borrar a tu mascota %s para siempre?</string>
+    <string name="confirmacion_si">Si</string>
+    <string name="confirmacion_no">No</string>
+
+    <string name="error_nombre_mascota_vacio">Completa el nombre de tu mascota por favor!</string>
+    <string name="error_nombre_mascota_formato_texto">El nombre de tu mascota solo puede contener letras y letras con acento!</string>
+    <string name="error_cargar_foto">No se puede cargar la foto!</string>
+    <string name="error_no_se_puede_crear_archivo_foto">No se puede crear el archivo de la foto</string>
+    <string name="error_recorte_imagen">Este dispositivo no soporta la accion de recorte de imagenes!</string>
+    <string name="mensaje_diminutivo_tipo_mascota_hembra">ita</string>
+    <string name="mensaje_diminutivo_tipo_mascota_macho">ito</string>
+
+    <string name="error_al_borrar_mascota" formatted="false">"Ocurrio un error al intentar borrar la mascota: %s"</string>
+
+
+
+</resources>
